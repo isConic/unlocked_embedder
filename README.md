@@ -20,7 +20,7 @@ print(embedder.batch_embed(["Hello", "World"]))
 ## How to contribute
 
 
-Main branch is sacred. You merge finished things in there. Things are deemed finish once you've gone through `the process``
+Main branch is sacred. You merge finished things in there. Things are deemed finish once you've gone through `the process`
 
 `The process`:   
 
