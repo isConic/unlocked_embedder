@@ -6,7 +6,8 @@ authors = ["conic <cncrlf@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<3.13"
+fastembed = "^0.3.4"
 
 
 [build-system]
