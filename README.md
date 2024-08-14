@@ -2,7 +2,17 @@
 A short natural language embedding utility for sociology research. Encapsulates models that are  less restrictive than "aligned" embeders.
 
 
+# Usage
 
+```python 
+from unlocked import Embedder
+
+MODEL_NAME = "BAAI/bge-small-en-v1.5"
+embedder = Embedder(model_name = MODEL_NAME)
+
+print(embedder.embed("Hello"))
+print(embedder.batch_embed(["Hello", "World"]))
+```
 
 ## How to contribute
 
